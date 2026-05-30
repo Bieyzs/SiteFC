@@ -1,13 +1,13 @@
 /* ========================================
-   RESET E VARIÁVEIS
+                reset
    ======================================== */
 :root {
     --cor-fundo-claro: #faf8f2;
     --cor-fundo-escuro: #1a1a2e;
-    --cor-primaria: #c9a94e;
-    --cor-primaria-escura: #a8882e;
-    --cor-texto-principal: #2c2c2c;
-    --cor-texto-secundario: #5a5a5a;
+    --cor-primaria: #bb952e;
+    --cor-primaria-escura: #80651e;
+    --cor-texto-principal: #181717;
+    --cor-texto-secundario: #2c2929;
     --cor-texto-claro: #f0ece4;
     --cor-borda: #e0d9c8;
     --cor-positivo: #2d7a3a;
@@ -58,7 +58,7 @@ ul {
 }
 
 /* ========================================
-   CONTAINER E UTILITÁRIOS
+                CONTAINER
    ======================================== */
 .container {
     max-width: var(--largura-container);
@@ -76,7 +76,7 @@ ul {
 }
 
 /* ========================================
-   CABEÇALHO / NAVEGAÇÃO
+                NAV
    ======================================== */
 .cabecalho {
     position: fixed;
@@ -179,7 +179,7 @@ ul {
 }
 
 /* ========================================
-   SEÇÃO PRINCIPAL / HERO
+                SEÇÃO PRINCIPAL
    ======================================== */
 .secao-principal {
     min-height: 100vh;
@@ -288,7 +288,7 @@ ul {
 }
 
 /* ========================================
-   SEÇÕES DE CONTEÚDO
+                SEÇÕES 
    ======================================== */
 .secao-conteudo {
     padding: var(--espacamento-secao) 0;
@@ -379,7 +379,7 @@ ul {
 }
 
 /* ========================================
-   GRID DUAS COLUNAS (O que é o algoritmo)
+                O que é o algoritmo
    ======================================== */
 .grid-duas-colunas {
     display: grid;
@@ -411,7 +411,7 @@ ul {
 }
 
 /* ========================================
-   CARDS - COMO ELE APRENDE
+                CARDS 
    ======================================== */
 .grade-cards {
     display: grid;
@@ -469,7 +469,7 @@ ul {
 }
 
 /* ========================================
-   PONTOS POSITIVOS E NEGATIVOS
+                PONTOS POSITIVOS E NEGATIVOS
    ======================================== */
 .grade-lado-a-lado {
     display: grid;
@@ -557,7 +557,7 @@ ul {
 }
 
 /* ========================================
-   CONCLUSÃO
+                CONCLUSÃO
    ======================================== */
 .caixa-conclusao {
     max-width: 800px;
@@ -588,7 +588,7 @@ ul {
 }
 
 /* ========================================
-   PARTICIPANTES
+                PARTICIPANTES
    ======================================== */
 .secao-participantes {
     padding: var(--espacamento-secao) 0;
@@ -647,7 +647,7 @@ ul {
 }
 
 /* ========================================
-   RODAPÉ
+                RODAPÉ
    ======================================== */
 .rodape {
     background-color: var(--cor-fundo-escuro);
@@ -679,9 +679,7 @@ ul {
     letter-spacing: 0.5px;
 }
 
-/* ========================================
-   ANIMAÇÕES DE ENTRADA
-   ======================================== */
+
 .elemento-animado {
     opacity: 0;
     transform: translateY(30px);
@@ -693,9 +691,7 @@ ul {
     transform: translateY(0);
 }
 
-/* ========================================
-   RESPONSIVIDADE - TABLET
-   ======================================== */
+
 @media (max-width: 900px) {
     .grade-cards {
         grid-template-columns: repeat(2, 1fr);
@@ -724,7 +720,7 @@ ul {
 }
 
 /* ========================================
-   RESPONSIVIDADE - CELULAR
+                CELULAR
    ======================================== */
 @media (max-width: 640px) {
     :root {
